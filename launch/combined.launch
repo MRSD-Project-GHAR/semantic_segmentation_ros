@@ -1,0 +1,7 @@
+<launch> 
+    <node pkg="semantic_segmentation_ros" name="publisher" type="video_publisher.py" output="screen"> 
+    </node>
+
+    <node pkg="semantic_segmentation_ros" name="segmenter" type="video_subscriber.py" output="screen"> 
+    </node>
+</launch> 

@@ -1,0 +1,6 @@
+media/*.mp4
+src/__pycache__/
+models/*/*.pth
+models/*/*.pt
+models/pspnet
+models/pspnet/pspnet_r50-d8_512x1024_40k_cityscapes.engine

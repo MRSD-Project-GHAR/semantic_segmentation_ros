@@ -1,0 +1,11 @@
+
+mmseg_path: "/home/mrsd-lab/madhu/repos/mmlab/mmsegmentation/"
+mmdeploy_path: "/home/mrsd-lab/madhu/repos/mmlab/mmdeploy/"
+
+model_cfg: "lraspp_m-v3-d8_512x1024_320k_cityscapes.py"
+deploy_cfg: "segmentation_tensorrt_static-512x1024.py"
+model_name: "mobilenet_v3"
+
+backend: "trt"
+trt_model: "lraspp_m-v3-d8_512x1024_320k_cityscapes.engine"
+output_path: 0
