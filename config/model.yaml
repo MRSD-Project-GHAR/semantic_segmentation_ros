@@ -1,4 +1,3 @@
-
 mmseg_path: "/home/mrsd-lab/madhu/repos/mmlab/mmsegmentation/"
 mmdeploy_path: "/home/mrsd-lab/madhu/repos/mmlab/mmdeploy/"
 

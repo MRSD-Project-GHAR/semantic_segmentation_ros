@@ -1,0 +1,2 @@
+subcriber_topic: '/device_0/sensor_1/Color_0/image/data'
+publisher_topic: 'video_frames_seg'

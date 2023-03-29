@@ -1,6 +1,7 @@
 <launch> 
     <!-- Load the parameters -->
     <rosparam command="load" file="$(find semantic_segmentation_ros)/config/model.yaml" />
+    <rosparam command="load" file="$(find semantic_segmentation_ros)/config/rosparams.yaml" />
 
     <node pkg="semantic_segmentation_ros" name="segmenter" type="video_subscriber.py" output="screen"> 
     </node>
